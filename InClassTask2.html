@@ -1,0 +1,48 @@
+<!-- * In-Class 2 
+	 * 
+	 * David Sin-Keo (7597669)
+	 * 2018/01/30
+  --> 
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> In-Class Task 2 </title>
+				
+		<script>		
+
+		
+			function celciusToFahrenheit() {
+				
+			var tempratureC = parseInt(prompt("Please enter a temprature in Celcius"));
+	
+			alert("Your temprature in Fahrenheit is, " + (tempratureC * 9 / 5 + 32).toFixed(2) + "°F")	 ;		
+			}
+			
+			function fahrenheitToCelcius() {
+			
+			
+			var tempratureF = prompt("Please enter a temprature in Fahrenheit");
+			
+			alert("Your temprature in Celcius is, " +  ((tempratureF - 32)  / (9 / 5)).toFixed(2)+ "°C" );
+			
+			}
+										
+		</script>
+		
+	</head>
+	
+	<body>
+		<h1 style="color:blue;">In-Class Assignment Two</h1>
+		
+			<p> The purpose of this assignment is to, allow the user to convert tempratures between Celcius and Fahrenheit with HTML and JavaScript. </p>
+			<p> Convert your temprature from celcius to fahrenheit or the other way around using the buttons below! </p>		
+		
+		<input type="button" onclick="celciusToFahrenheit()" value="Convert Celcius to Fahrenheit" id="btnClick">
+		<input type="button" onclick="fahrenheitToCelcius()" value="Convert Fahrenheit to Celcius" id="btnClick2">
+		
+		<br/>
+		<br/>
+		
+	</body>
+	
+</html>

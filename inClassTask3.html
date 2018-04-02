@@ -1,0 +1,48 @@
+<!-- * In-Class 3 
+	 * 
+	 * David Sin-Keo (7597669)
+	 * 2018/01/30
+  --> 
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> In-Class Task 3 </title>
+				
+		<script>		
+		
+			function launchRocket()
+			{				
+				var i = 0; 
+				var countDown = 10; 
+			
+				for (i = 0; i<= countDown; countDown--) 
+				{		
+					
+					document.write(countDown + ", ");
+				
+					if (countDown == 0)
+					{
+						document.write("BLASTOFF!");
+					}			
+				}
+			}
+												
+		</script>
+		
+	</head>
+	
+	<body>
+		<h1 style="color:red;">In-Class Assignment Three</h1>
+		
+			<p> The purpose of this assignment is to, "Launch a Rocket" with HTML and JavaScript. </p>
+			<p> Launch a Rocket using the button below </p>
+			<img src="rocket.png" alt= "rocket" width= "400" height = "400">
+		
+		<input type="button" onclick="launchRocket()" value="Launch Rocket" id="btnClick">
+		
+		<br/>
+		<br/>
+		
+	</body>
+	
+</html>
